@@ -66,7 +66,6 @@ Berkas `update.json` di repositori ini berfungsi sebagai pusat kontrol pembaruan
 
 ## 🚀 Cara Merilis Update (DevOps Otomatis)
 
-### Opsi A: Menggunakan Script Otomatis Terminal / PowerShell
 Jalankan perintah ini di komputer:
 ```powershell
 powershell -ExecutionPolicy Bypass -File "publish_beta.ps1" `
@@ -75,13 +74,6 @@ powershell -ExecutionPolicy Bypass -File "publish_beta.ps1" `
   -VersionCode 79781056 `
   -Changelog "Perbaikan SSL Root CA Android 6, Smart DoH & ExoPlayer OkHttp"
 ```
-
-### Opsi B: Dari Aplikasi App Cloner di HP
-1. Buat klon baru di menu **Clone**.
-2. Masuk ke tab **History** di Cloner.
-3. Klik tombol ikon **Awan (Cloud Upload)** di samping riwayat klon yang baru dibuat.
-4. Masukkan nomor versi, tag rilis, dan changelog di dialog pop-up yang muncul.
-5. Klik **Push Now**. Aplikasi Cloner akan otomatis membuat rilis baru di GitHub, mengunggah APK, dan memperbarui berkas `update.json` di repositori ini secara instan!
 
 ---
 *Dikembangkan dengan ❤️ untuk CloudStreamXR Community.*
