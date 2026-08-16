@@ -1,8 +1,1 @@
-{
-  "versionCode": 79781056,
-  "versionName": "4.8.0-BETA",
-  "apkUrl": "https://github.com/xr3ed/CloudStreamXR-Beta/releases/download/4.8.0-BETA/CloudStreamXR-Beta.apk",
-  "changelog": "Perbaikan SSL Root CA (Android 6 / Android TV), Smart DoH & Video Streaming OkHttp",
-  "forceUpdate": false,
-  "buildTime": 1786880000000
-}
+{"versionCode":79781056,"versionName":"4.8.0-PRE-1608261610","apkUrl":"https://github.com/xr3ed/CloudStreamXR-Beta/releases/download/4.8.0-PRE-1608261610/CloudStreamXRBeta_1786871271011.apk","changelog":"Pembaruan rutin.","forceUpdate":true,"buildTime":1786871271011}
