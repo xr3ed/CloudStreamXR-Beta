@@ -1,0 +1,20 @@
+name: Purge jsDelivr Cache
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'update.json'
+  workflow_dispatch:
+
+jobs:
+  purge-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge update.json
+        run: |
+          echo "Purging update.json from jsDelivr cache for CloudStreamXR-Beta..."
+          curl -i "https://purge.jsdelivr.net/gh/xr3ed/CloudStreamXR-Beta@main/update.json"
+          echo ""
+          echo "Purge completed!"
