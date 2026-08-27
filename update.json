@@ -1,8 +1,1 @@
-{
-  "versionCode": 129799999,
-  "versionName": "4.8.1-BETA",
-  "apkUrl": "https://invalid-dummy-apk-url.fake/maintenance_test.apk",
-  "changelog": "UNDER MAINTENANCE\n~ Pemeliharaan sistem dan pembaruan berkala.",
-  "forceUpdate": false,
-  "buildTime": 1787999999999
-}
+{"versionCode":129797270,"versionName":"4.8.0-PRE-2708262127","apkUrl":"https://github.com/xr3ed/CloudStreamXR-Beta/releases/download/4.8.0-PRE-2708262127/CloudStreamXRBeta_1787840856415.apk","changelog":"~ Major Fix","forceUpdate":false,"buildTime":1787840856415}
